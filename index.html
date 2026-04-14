@@ -15,7 +15,7 @@
             <ul>
                 <li><a href="#home">home</a></li>
                 <li><a href="#projects">projects</a></li>
-                <li><a href="contact_me">contact me</a></li>
+                <li><a href="#contact_me">contact me</a></li>
             </ul>
         </nav>
     </header>
@@ -53,8 +53,22 @@
                 </article>
             </div>
         </section>
+        <section id="contact_me">
+            <h2>CONTACTAME!</h2>
+            <form method="post">
+                <label class="input-nombre" for="user">Usuario:</label>
+                <input class="input-nombre-place" type="text" id="user" name="usuario" placeholder="Ingrese usuario" maxlength="20" required>
+                <br><br>
+                <label class="input-email" for="email">Correo electrónico:</label>
+                <input class="input-email-place" type="email" id="email" name="email" placeholder="ejemplo@email.com" maxlength="25" required>
+                <br><br>
+                <label class="input-message" for="message">Message:</label>
+                <input class="input-message-place" type="text" name="message" id="message" placeholder="Text here!" maxlength="250" required>
 
-        <section id="contact_me"></section>
+                <button type="submit">Send</button>
+            </form>
+
+        </section>
     </main>
     <footer></footer>
 </body>

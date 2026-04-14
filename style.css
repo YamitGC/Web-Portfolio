@@ -149,3 +149,66 @@ ul li a{
 .card:hover {
   transform: translateY(-10px); /* Se eleva un poquito al pasar el mouse */
 }
+
+#contact_me{
+    background-color: var(--color-home);
+    padding: 10% 0% 20% 5%;
+    text-align: left;
+}
+
+#contact_me h2{
+    color: var(--color-h1-home);
+    padding: 0% 0% 5% 0%;
+    font-size: 50px;
+}
+
+.input-nombre{
+    color: white;
+    padding: 0 0 0 5%;
+}
+
+.input-nombre-place{
+    background-color: #d1d1d1;
+    border-radius: 10px;
+    padding: 10px 100px 10px 0%;
+    color: #272727;
+}
+
+.input-nombre-place::placeholder{
+    color: black;
+    padding: 0 0 0 5px;
+}
+
+.input-email{
+    color: white;
+    padding: 0 0 0 5%;
+}
+
+.input-email-place{
+    background-color: #d1d1d1;
+    border-radius: 10px;
+    padding: 10px 100px 10px 0%;
+    color: #272727;
+}
+
+.input-email-place::placeholder{
+    color: black;
+    padding: 0 0 0 5px;
+}
+
+.input-message{
+    color: white;
+    padding: 0 0 0 5%;
+}
+
+.input-message-place{
+    background-color: #d1d1d1;
+    border-radius: 10px;
+    padding: 10px 50px 10px 0%;
+    color: #272727;
+}
+
+.input-message-place::placeholder{
+    color: black;
+    padding: 0 0 0 5px;
+}
