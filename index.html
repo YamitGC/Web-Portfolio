@@ -15,7 +15,7 @@
             <ul>
                 <li><a href="#home">home</a></li>
                 <li><a href="#projects">projects</a></li>
-                <li><a href="contact_me">contact me</a></li>
+                <li><a href="#contact_me">contact me</a></li>
             </ul>
         </nav>
     </header>
@@ -31,21 +31,21 @@
             <p>He aquí los links al GitHub de algunos de mis proyectos hechos mediante python.</p>
             <div class="contenedor-cards">
                 <article class="card">
-                    <img src="inventario.png" alt="imagen inventario">
+                    <img src="/assets/inventario.png" alt="imagen inventario">
                     <div class="contenido-card">
                         <h3>CRUD inventario Python</h3>
                         <button><a href="https://github.com/YamitGC/ProyectoM1Riwi-Inventario-Python" target="_blank">Link repositorio</a></button>
                     </div>
                 </article>
                 <article class="card">
-                    <img src="estudiantes.jpg" alt="imagen estudiantes">
+                    <img src="/assets/estudiantes.jpg" alt="imagen estudiantes">
                     <div class="contenido-card">
                         <h3>Manejo de estudiantes Python</h3>
                         <button><a href="https://github.com/YamitGC/prueba-desempe-o" target="_blank">Link repositorio</a></button>
                     </div>
                 </article>
                     <article class="card">
-                    <img src="gestion-clientes.jpg" alt="imagen gestion-clientes">
+                    <img src="/assets/gestion-clientes.jpg" alt="imagen gestion-clientes">
                     <div class="contenido-card">
                         <h3>Gestion clientes Python</h3>
                         <button><a href="https://github.com/YamitGC/Proyecto-gestion-pedidos-clientes" target="_blank">Link repositorio</a></button>
@@ -54,8 +54,32 @@
             </div>
         </section>
 
-        <section id="contact_me"></section>
     </main>
-    <footer></footer>
+    <footer>
+        <section>
+        <h2>Mi Portafolio web</h2>
+        <p>Esta página está destinada para que conozca un poco de mi y de mis proyectos a continuacion verá los links para mis redes sociales.</p>
+        <nav aria-label="Redes sociales">
+            <a href="#">Twitter</a>
+            <a href="#">LinkedIn</a>
+            <a href="https://github.com/YamitGC">GitHub</a>
+        </nav>
+        </section>
+
+        <section id="contact_me">
+        <h2>Contactame!</h2>
+        <form action="/suscribir" method="POST">
+            <label for="nombre">Nombre</label>
+            <input type="text" id="nombre" name="nombre" placeholder="Tu nombre" maxlength="30" required />
+
+            <label for="email">Correo</label>
+            <input type="email" id="email" name="email" placeholder="Tu correo electrónico" maxlength="30" required />
+
+            <button type="submit">Enviar</button>
+        </form>
+        </section>
+
+        <small class="footer-copy"><p>© <time datetime="2026">2026</time> Mi portafolio web. Todos los derechos reservados.</p></small>
+    </footer>
 </body>
 </html>
