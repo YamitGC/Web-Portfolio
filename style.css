@@ -157,8 +157,6 @@ ul li a {
   transform: translateY(-10px); /* Se eleva un poquito al pasar el mouse */
 }
 
-
-
 /* ===== FOOTER ===== */
 footer {
   background-color:var(--color-home);
