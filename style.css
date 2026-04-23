@@ -29,8 +29,7 @@
     --color-pets-section: burlywood;
 
     /* Tipografía */
-    --font-base: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
-                 'Lucida Sans', Arial, sans-serif;
+    --font-base: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
     /* Espaciado */
     --spacing-xs: 8px;
@@ -186,10 +185,14 @@ body {
     font-size: 1.5rem;
 }
 
-.contenido-card button {
+.contenido-card a {
     background-color: var(--color-btn-bg);
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 600;
+    color: rgb(19, 19, 19);
     border: none;
-    padding: 0 10px;
+    padding: 10px 10px;
     height: 40px;
     border-radius: var(--radius-md);
     cursor: pointer;
@@ -197,16 +200,10 @@ body {
     transition: background-color var(--transition-fast);
 }
 
-.contenido-card button:hover {
+.contenido-card a:hover {
     background-color: var(--color-white);
 }
 
-.contenido-card button a {
-    text-decoration: none;
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: rgb(19, 19, 19);
-}
 
 /* =============================================
    FOOTER — PORTFOLIO
