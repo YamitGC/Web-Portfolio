@@ -2,7 +2,7 @@
 
 A personal developer portfolio built with pure HTML5, CSS3, and vanilla JavaScript (ES Modules). It showcases my background, projects, and skills as a backend-focused developer, with support for dark/light themes and English/Spanish localization.
 
-**Live demo:** [https://YamitGC.github.io/Web-Portfolio/](https://YamitGC.github.io/Web-Portfolio/)
+**Live demo:** [https://yamitgc.github.io/Web-Portfolio/](https://yamitgc.github.io/Web-Portfolio/)
 
 ---
 
