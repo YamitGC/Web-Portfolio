@@ -1,0 +1,45 @@
+/* ==========================================================================
+   RESPONSIVE MEDIA QUERIES
+   ========================================================================== */
+
+/* Tablet (menor a 768px) */
+@media (max-width: 768px) {
+  :root {
+    --fs-3xl: 2.1rem;
+    --fs-2xl: 1.75rem;
+  }
+
+  .header__container {
+    flex-direction: column;
+    gap: var(--space-sm);
+  }
+
+  .nav__list {
+    gap: var(--space-sm);
+  }
+
+  .hero {
+    padding: 3rem 0 2rem;
+  }
+
+  .hero__actions {
+    flex-direction: column;
+  }
+
+  .footer__container {
+    flex-direction: column;
+    gap: var(--space-sm);
+    text-align: center;
+  }
+}
+
+/* Mobile (menor a 480px) */
+@media (max-width: 480px) {
+  .projects__grid, .skills__grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-form {
+    padding: var(--space-md);
+  }
+}

@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portafolio Profesional de Desarrollo de Software y Arquitectura Backend/Frontend.">
+  <title>Portafolio | YamitGC Developer</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  
+  <!-- CSS Principal (Carga modular) -->
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Tipografía Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Encabezado y Navegación Principal -->
+  <header class="header" id="header">
+    <div class="container header__container">
+      <a href="#hero" class="logo" aria-label="Inicio">
+        <span class="logo__symbol">&lt;/&gt;</span>
+        <span class="logo__text">YamitGC Portfolio</span>
+      </a>
+      
+      <nav class="nav" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#about" class="nav__link" data-i18n="nav_about">Sobre mí</a></li>
+          <li class="nav__item"><a href="#projects" class="nav__link" data-i18n="nav_projects">Proyectos</a></li>
+          <li class="nav__item"><a href="#skills" class="nav__link" data-i18n="nav_skills">Habilidades</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link nav__link--cta" data-i18n="nav_contact">Contacto</a></li>
+        </ul>
+
+        <!-- Controles de Tema e Idioma -->
+        <div class="controls">
+          <button id="theme-toggle" class="controls__btn" aria-label="Cambiar tema">
+            <svg id="theme-icon" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+            </svg>
+          </button>
+          
+          <button id="lang-toggle" class="controls__btn controls__btn--text" aria-label="Cambiar idioma">
+            EN
+          </button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+      <div class="container hero__container">
+        <div class="hero__content">
+          <div class="badge" role="status">
+            <span class="badge__dot"></span> <span data-i18n="hero_badge">Disponible para nuevos retos</span>
+          </div>
+          <h1 class="hero__title" data-i18n="hero_title">
+            Construyendo soluciones de software <span class="text-highlight">robustas y escalables</span>.
+          </h1>
+          <p class="hero__subtitle" data-i18n="hero_subtitle">
+            Desarrollador enfocado en arquitectura limpia, código mantenible y desarrollo de sistemas eficientes.
+          </p>
+          <div class="hero__actions">
+            <a href="#projects" class="btn btn--primary" data-i18n="hero_btn_projects">Ver Proyectos</a>
+            <a href="#contact" class="btn btn--secondary" data-i18n="hero_btn_contact">Contáctame</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section class="about section" id="about">
+      <div class="container">
+        <h2 class="section__title" data-i18n="about_title">Sobre Mí</h2>
+        <div class="about__grid">
+          <article class="about__text">
+            <p data-i18n="about_p1">
+              Soy estudiante de Tecnología en Sistemas enfocado en el desarrollo backend, especializado en la construcción de APIs y servicios con <strong>Java (Spring Boot)</strong> y <strong>Python (FastAPI)</strong>. Mi experiencia previa en soporte técnico reforzó mi capacidad de análisis para la resolución eficiente de problemas.
+            </p>
+            <br>
+            <p data-i18n="about_p2">
+              Me especializo en diseñar y desarrollar sistemas estructurados bajo principios de <strong>Clean Architecture</strong> y patrones de diseño, priorizando la separación de responsabilidades, la mantenibilidad y el alto rendimiento, complementado con bases en frontend para una colaboración fluida en equipo.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos destacados -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <h2 class="section__title" data-i18n="projects_title">Proyectos Destacados</h2>
+        
+        <div class="projects__grid">
+          
+          <article class="project-card">
+            <header class="project-card__header">
+              <span class="project-card__tag" data-i18n="proj1_tag">Backend / API</span>
+              <h3 class="project-card__title" data-i18n="proj1_title">Inventory Management Core System</h3>
+            </header>
+            <div class="project-card__body">
+              <p data-i18n="proj1_desc">
+                Sistema de gestión de inventario diseñado bajo arquitectura por capas (Presentación, Servicio, Repositorio) para garantizar desacoplamiento y facilidades de prueba.
+              </p>
+              <ul class="tech-stack" aria-label="Tecnologías usadas">
+                <li class="tech-stack__item">Python</li>
+                <li class="tech-stack__item">FastAPI</li>
+                <li class="tech-stack__item">SQLite</li>
+              </ul>
+            </div>
+            <footer class="project-card__footer">
+              <a href="https://github.com/YamitGC/Inventory-FastAPI" class="project-card__link" target="_blank" rel="noopener noreferrer" data-i18n="proj1_link">Repositorio &rarr;</a>
+            </footer>
+          </article>
+
+          <article class="project-card">
+            <header class="project-card__header">
+              <span class="project-card__tag" data-i18n="proj2_tag">Full Stack</span>
+              <h3 class="project-card__title" data-i18n="proj2_title">E-Commerce Architecture Platform</h3>
+            </header>
+            <div class="project-card__body">
+              <p data-i18n="proj2_desc">
+                Plataforma modular con procesamiento de transacciones, autenticación segura mediante tokens y persistencia optimizada de datos.
+              </p>
+              <ul class="tech-stack" aria-label="Tecnologías usadas">
+                <li class="tech-stack__item">Java</li>
+                <li class="tech-stack__item">REST API</li>
+                <li class="tech-stack__item">Docker</li>
+              </ul>
+            </div>
+            <footer class="project-card__footer">
+              <a href="#" class="project-card__link" target="_blank" rel="noopener noreferrer" data-i18n="proj2_link">Repositorio &rarr;</a>
+            </footer>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Habilidades -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <h2 class="section__title" data-i18n="skills_title">Habilidades & Competencias</h2>
+        
+        <div class="skills__grid">
+          <div class="skills__category">
+            <h3 class="skills__category-title" data-i18n="skills_cat1">Desarrollo & Lenguajes</h3>
+            <ul class="skills__list">
+              <li>Java / Spring Boot</li>
+              <li>Python / FastAPI</li>
+              <li>SQL & Bases de Datos</li>
+              <li>HTML5 / CSS3 / JavaScript</li>
+            </ul>
+          </div>
+
+          <div class="skills__category">
+            <h3 class="skills__category-title" data-i18n="skills_cat2">Arquitectura & Buenas Prácticas</h3>
+            <ul class="skills__list">
+              <li>Clean Architecture</li>
+              <li>Principios SOLID</li>
+              <li>Diseño de APIs REST</li>
+              <li>Git / Version Control</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contacto -->
+    <section class="contact section" id="contact">
+      <div class="container container--narrow">
+        <h2 class="section__title text-center" data-i18n="contact_title">¿Trabajamos Juntos?</h2>
+        <p class="contact__intro text-center" data-i18n="contact_intro">
+          Estoy disponible para colaborar en proyectos exigentes, aportar en arquitectura de software o discutir oportunidades laborales.
+        </p>
+
+        <form class="contact-form" action="#" method="POST">
+          <div class="form-group">
+            <label for="name" class="form-label" data-i18n="label_name">Nombre</label>
+            <input type="text" id="name" name="name" class="form-input" data-i18n-placeholder="ph_name" placeholder="Tu nombre" required>
+          </div>
+          
+          <div class="form-group">
+            <label for="email" class="form-label" data-i18n="label_email">Correo Electrónico</label>
+            <input type="email" id="email" name="email" class="form-input" data-i18n-placeholder="ph_email" placeholder="tu@email.com" required>
+          </div>
+
+          <div class="form-group">
+            <label for="message" class="form-label" data-i18n="label_message">Mensaje</label>
+            <textarea id="message" name="message" class="form-textarea" rows="5" data-i18n-placeholder="ph_message" placeholder="Escribe tu mensaje aquí..." required></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary btn--block" data-i18n="btn_send">Enviar Mensaje</button>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <p class="footer__copy" data-i18n="footer_copy">&copy; 2026 Yamit Garcia Portfolio.</p>
+      <div class="footer__socials">
+        <a href="https://github.com/YamitGC" target="_blank" rel="noopener noreferrer" class="footer__social-link">GitHub</a>
+        <a href="https://www.linkedin.com/in/yamit-garcia-cueto-928207426/?locale=en-US" target="_blank" rel="noopener noreferrer" class="footer__social-link">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+<script type="module" src="js/main.js"></script>
+</body>
+</html>

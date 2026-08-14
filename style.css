@@ -1,0 +1,12 @@
+/* ==========================================================================
+   ENTRY POINT - ARCHITECTURE CSS
+   ========================================================================== */
+
+/* 1. Design Tokens y Variables Globales */
+@import url('css/variables.css');
+
+/* 2. Estilos Principales del Portafolio */
+@import url('css/portfolio.css');
+
+/* 3. Media Queries y Adaptabilidad Responsiva */
+@import url('css/responsive.css');
