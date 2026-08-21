@@ -25,9 +25,9 @@ export const translations = {
     proj1_desc: "Sistema de gestión de tareas diseñado bajo arquitectura por capas (Presentación, Servicio, Repositorio) para garantizar desacoplamiento y facilidades de prueba.",
     proj1_link: "Repositorio &rarr;",
 
-    proj2_tag: "Full Stack",
-    proj2_title: "E-Commerce Architecture Platform",
-    proj2_desc: "Plataforma modular con procesamiento de transacciones, autenticación segura mediante tokens y persistencia optimizada de datos.",
+    proj2_tag: "Backend / Core API",
+    proj2_title: "Fintech Core & Transaction Processing Engine",
+    proj2_desc: "Plataforma bancaria modular con procesamiento atómico de transferencias, arquitectura limpia por capas y persistencia relacional optimizada.",
     proj2_link: "Repositorio &rarr;",
 
     // Habilidades
@@ -76,9 +76,9 @@ export const translations = {
     proj1_desc: "Inventory management system built using layered architecture (Presentation, Service, Repository) to ensure decoupling and testability.",
     proj1_link: "Repository &rarr;",
 
-    proj2_tag: "Full Stack",
-    proj2_title: "E-Commerce Architecture Platform",
-    proj2_desc: "Modular platform featuring transaction processing, secure token authentication, and optimized data persistence.",
+    proj2_tag: "Backend / Core API",
+    proj2_title: "Fintech Core & Transaction Processing Engine",
+    proj2_desc: "Modular banking platform with atomic transfer processing, clean layered architecture, and optimized relational persistence.",
     proj2_link: "Repository &rarr;",
 
     // Skills
