@@ -65,8 +65,8 @@ This is a static site with no dependencies or build tools required.
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/YamitGC/Web-Portfolio.git
-   cd Web-Portfolio
+   git clone https://github.com/YamitGC/web-portfolio.git
+   cd web-portfolio
    ```
 2. Open `index.html` directly in your browser, **or** serve it locally (recommended, since JS is loaded as ES Modules and some browsers restrict `file://` imports):
 
@@ -85,7 +85,7 @@ This is a static site with no dependencies or build tools required.
 4. Choose the `main` branch and the `/ (root)` folder.
 5. Save. Your site will be published at:
    ```
-   https://YamitGC.github.io/Web-Portfolio/
+   https://YamitGC.github.io/web-portfolio/
    ```
 
 ---
